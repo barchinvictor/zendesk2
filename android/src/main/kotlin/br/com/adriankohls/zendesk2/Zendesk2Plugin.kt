@@ -1,5 +1,6 @@
 package br.com.adriankohls.zendesk2
 
+import androidx.core.app.OnUserLeaveHintProvider
 import android.app.Activity
 import androidx.annotation.NonNull
 import io.flutter.embedding.engine.plugins.FlutterPlugin
