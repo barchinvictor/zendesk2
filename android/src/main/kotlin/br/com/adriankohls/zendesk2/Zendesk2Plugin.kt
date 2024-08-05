@@ -11,7 +11,7 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 import zendesk.chat.*
 
-class Zendesk2Plugin : ActivityAware, FlutterPlugin, MethodCallHandler {
+class Zendesk2Plugin : ActivityAware, FlutterPlugin, MethodCallHandler, OnUserLeaveHintProvider {
 
     private lateinit var channel: MethodChannel
 
