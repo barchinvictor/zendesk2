@@ -1,6 +1,5 @@
 package br.com.adriankohls.zendesk2
 
-import androidx.core.app.OnUserLeaveHintProvider
 import android.app.Activity
 import androidx.annotation.NonNull
 import io.flutter.embedding.engine.plugins.FlutterPlugin
@@ -12,7 +11,7 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 import zendesk.chat.*
 
-class Zendesk2Plugin : ActivityAware, FlutterPlugin, MethodCallHandler, OnUserLeaveHintProvider {
+class Zendesk2Plugin : ActivityAware, FlutterPlugin, MethodCallHandler {
 
     private lateinit var channel: MethodChannel
 
