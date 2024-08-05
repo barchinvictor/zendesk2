@@ -42,7 +42,6 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.core:core:1.7.0'
     implementation 'androidx.annotation:annotation:1.2.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
